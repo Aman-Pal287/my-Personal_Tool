@@ -30,11 +30,12 @@ const PracticeTailwind = () => {
 
   return (
     <div className=" w-full h-full bg-black text-white">
-      <main className="overflow-auto w-full  bg-white text-black p-10 flex flex-wrap gap-10 justify-center items-start">
+      <main className="pt-20  overflow-auto w-full  bg-white text-black  flex flex-wrap gap-10 justify-center items-start">
         {/* 🖼️ Image Container */}
+
         <div
           ref={containerRef}
-          className="w-[400px] h-[400px] overflow-hidden border border-gray-300 rounded-lg"
+          className=" ml-10 mr-10 w-[400px] h-[400px] overflow-hidden border border-gray-300 rounded-lg"
           onMouseMove={handleMouseMove}
           onMouseLeave={handleMouseLeave}
         >
@@ -47,7 +48,7 @@ const PracticeTailwind = () => {
         </div>
 
         {/* 🛍️ Product Details */}
-        <div className="max-w-md w-full space-y-4">
+        <div className="ml-10 mr-10 max-w-md w-full space-y-4">
           <h2 className="text-3xl font-semibold">Minimalist Table Lamp</h2>
           <p className="text-xl text-green-600 font-bold">₹1,499</p>
           <p className="text-sm text-gray-700">
@@ -88,6 +89,7 @@ const PracticeTailwind = () => {
             Add to Cart
           </button>
         </div>
+
         <footer className="w-full bg-black text-white mt-10">
           <div className="max-w-7xl mx-auto px-6 py-10 grid grid-cols-1 md:grid-cols-4 gap-8">
             {/* Brand Info */}

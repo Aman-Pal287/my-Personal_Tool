@@ -2,12 +2,14 @@
   "name": "practice-tailwind",
   "private": true,
   "version": "0.0.0",
+  "homepage": "https://Aman-Pal287.github.io/my-Personal_Tool",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "@heroicons/react": "^2.2.0",
